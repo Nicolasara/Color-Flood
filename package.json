@@ -1,0 +1,19 @@
+{
+    "name": "flood",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "ts-node ./src/run.ts"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "ts-node": "^10.9.1",
+        "yargs": "^17.7.2"
+    },
+    "devDependencies": {
+        "@types/yargs": "^17.0.31"
+    }
+}
